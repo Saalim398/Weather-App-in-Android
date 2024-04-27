@@ -80,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
                         JSONArray jsonArray = response.getJSONArray("weather");
                         JSONObject img = jsonArray.getJSONObject(0);
 
-//                        img.getJSONArray("[0]");
                         String icon = img.getString("icon");
                         String imageUrl = "http://openweathermap.org/img/w/"+icon+".png";
 
