@@ -12,6 +12,6 @@ I downloaded and obtained the image in real time using the openweathermap weathe
 
 This is the app's image.     
 
-<img src="https://github.com/Saalim398/TodoApp-in-Android/assets/137300854/a943aafb-498f-431c-893e-00dd5d9c6b5e" width="434px" height="1000px">
+<img src="https://github.com/Saalim398/TodoApp-in-Android/assets/137300854/a943aafb-498f-431c-893e-00dd5d9c6b5e" width="200px" height="550px">
 
 
