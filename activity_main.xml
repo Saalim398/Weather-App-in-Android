@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/weather"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvweather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather Info"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        android:layout_marginTop="15sp"
+        />
+    <EditText
+        android:id="@+id/etsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Location"
+        android:textColor="@color/black"
+        android:layout_marginTop="24sp"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/search_btn"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24sp"
+        android:text="search"
+        android:onClick="getWeather"
+        app:backgroundTint="#4E79AE" />
+    <TextView
+        android:id="@+id/tvtemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:gravity="center"
+
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="24sp"
+        />
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12sp"/>
+    <TextView
+        android:id="@+id/forecast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvresult"
+        android:gravity="center"
+
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="24sp"
+        />
+
+</LinearLayout>
