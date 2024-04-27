@@ -34,7 +34,7 @@ import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
     private final String appid = "yourapiid";
-    String url = "https://api.openweathermap.org/data/2.5/weather";
+    private final String url = "https://api.openweathermap.org/data/2.5/weather";
 
 
     TextView textresult,tvftemp,description;
