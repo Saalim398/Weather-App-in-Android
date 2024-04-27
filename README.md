@@ -2,7 +2,7 @@
 `Weather INFO`
 version `1.0`   
 
-I have developed an intermediate Android weather application "Weather Info" that retrieves data from the OpenWeatherMap using its API.      
+I have developed an intermediate Android weather application "Weather Info" that retrieves data from the OpenWeatherMap using its API.It uses volley a HTTP library that makes networking for Android apps easier and most importantly, faster    
 
 ## Features   
 
